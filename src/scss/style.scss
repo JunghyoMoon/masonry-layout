@@ -1,18 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Mono");
-
-$bg: #4f000b;
-$itemBg1: #720026;
-$itemBg2: #ce4257;
-$itemBg3: #ffc093;
-$itemBg4: #ff7f51;
-$counterBg: #222;
-
-@mixin setColorAndHover($baseColor) {
-	color: $baseColor;
-	&:hover {
-		background: lighten($baseColor, 8%);
-	}
-}
+@import "./variables";
+@import "./mixins";
 
 body,
 html {

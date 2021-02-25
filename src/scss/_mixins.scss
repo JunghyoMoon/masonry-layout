@@ -1,0 +1,6 @@
+@mixin setColorAndHover($baseColor) {
+	color: $baseColor;
+	&:hover {
+		background: lighten($baseColor, 8%);
+	}
+}
