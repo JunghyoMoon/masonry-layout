@@ -2,7 +2,7 @@ const wrapper = document.querySelector(".masonry");
 const items = wrapper.querySelectorAll(".item");
 
 function handleClick() {
-	console.log(this);
+	const content = this.innerHTML;
 }
 
 const init = () => {
